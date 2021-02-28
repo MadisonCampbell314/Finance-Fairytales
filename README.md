@@ -1,4 +1,4 @@
-# Finance-Fairytales
+# Finance-Fairytales 
 
 # Problem we wanted to solve
 The problem we are trying to solve is that young children ( specifically elementary students) have a lack of fun educational resources that teach them about the beginner concepts of finance.
