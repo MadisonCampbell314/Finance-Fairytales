@@ -1,4 +1,4 @@
-secret_word = "Budget"
+secret_word = "Budget" 
 guess = ""
 guess_count = 0
 guess_limit = 3
