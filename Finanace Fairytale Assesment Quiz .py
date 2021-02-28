@@ -7,7 +7,7 @@ answer = input( "What is the first step to starting a budget?\n(A)Go on a shoppi
 
 answer = input( "Why should you learn how to manage your money?\n(A) Because it is fun\n(B) So that you save enough to purchase things\n(C) You set yourself up for the future\n(D) All of the above" )
 
-# Start all of the women in tech at 0.
+
 Wizard = 0
 Ruler = 0
 Knight = 0
