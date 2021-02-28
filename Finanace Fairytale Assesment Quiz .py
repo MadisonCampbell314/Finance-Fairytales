@@ -1,4 +1,4 @@
-# Collect input for our questions.
+
 answer = input( "What is a bugdet?\n(A) A plan on how to spend your money\n(B) A place where you can keep all of your money\n(C) A person who helps with money\n(D) I don't know" )
 
 answer = input( "Why should we have a budget?\n(A) To save money\n(B) To have a good amount of debt\n(C) So you can brag to your friends\n(D) I don't know")
@@ -13,7 +13,6 @@ Ruler = 0
 Knight = 0
 Creature = 0
 
-# Answer counter for our first question: What is a Budget?
 if answer == "A":
   Wizard += 1
 elif answer == "B":
@@ -26,7 +25,6 @@ else:
   print("You did not select one of the answers for question 1. We're going to say you selected D")
   Creature += 1
   
-  # Answer counter for our second question: Why should you have a budget?
 if answer == "A":
   Wizard += 1
 elif answer == "B":
@@ -39,7 +37,6 @@ else:
   print("You did not select one of the answers for question 2. We're going to say you selected D")
   Creature += 1
   
-  # Answer counter for our third question: What is the first step to starting a budget?
 if answer == "A" or "D":
   Creature += 1
   Knight += 1
@@ -51,7 +48,6 @@ else:
   print("You did not select one of the answers for question 3. We're going to say you selected D")
   Creature += 1  
   
-  # Answer counter for our fourth question: Why should you learn how to manage your money?
 if answer == "A":
   Creature += 1
 elif answer == "B":
@@ -63,8 +59,7 @@ elif answer == "D":
 else:
   print("You did not select one of the answers for question 4.")
   Creature += 1
-  
-  # Determine which woman in tech had the highest score and print the results!
+	
 if (Wizard > Ruler and Knight and Creature):
 	print("Congratulations! You will start off as The Wizard!")
 elif (Ruler > Wizard and Knight and Creature):
